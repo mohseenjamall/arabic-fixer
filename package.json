@@ -1,0 +1,24 @@
+{
+  "name": "arabic-fixer",
+  "version": "1.0.0",
+  "description": "Fix Arabic text rendering issues in Affinity Designer, Photo, and Publisher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohseenjamall/arabic-fixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohseenjamall/arabic-fixer/issues"
+  },
+  "homepage": "https://github.com/mohseenjamall/arabic-fixer#readme",
+  "main": "main.js",
+  "scripts": {
+    "start": "node node_modules/electron/cli.js .",
+    "dev": "node node_modules/electron/cli.js . --dev"
+  },
+  "keywords": ["arabic", "affinity", "text", "clipboard", "rtl", "design"],
+  "author": "Mohsen Jamal",
+  "license": "Proprietary",
+  "dependencies": {
+    "electron": "^28.0.0"
+  }
+}
